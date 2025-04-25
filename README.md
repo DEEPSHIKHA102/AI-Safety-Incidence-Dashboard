@@ -32,6 +32,7 @@ Follow these steps to set up and run the project locally:
 Clone the repository:
 
 1. git clone https://github.com/your-username/ai-safety-incident-dashboard.git
+# https://github.com/DEEPSHIKHA102/AI-Safety-Incidence-Dashboard
 cd ai-safety-incident-dashboard
 Install dependencies:
 
