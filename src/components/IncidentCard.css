@@ -1,0 +1,17 @@
+/* src/components/IncidentCard.css */
+
+.incident-card {
+    background: #833AB4;
+    background: linear-gradient(90deg, rgb(109, 79, 129) 0%, rgb(131, 86, 86) 30%, rgba(252, 176, 69, 1) 100%);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px #aaa;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect on the incident card */
+  .incident-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+    transform: translateY(-5px); /* Lift effect */
+  }
+  

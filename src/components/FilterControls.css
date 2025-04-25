@@ -1,0 +1,76 @@
+/* src/components/FilterControls.css */
+
+/* Slide-in animation for the filter card */
+@keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  
+  .filter-card {
+    background: #2A7B9B;
+    background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 12px;
+    box-shadow: 8px 20px 18px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    margin: 10px;
+    margin-top: 70px;
+    margin-left: 30px;
+    
+    /* Apply the slide-in animation */
+    animation: slideIn 1.0s ease-out;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  #headingh3{
+    background-color: rgb(202, 248, 248);
+    border-radius: 8px;
+  }
+  
+  .filter-card:hover {
+    transform: scale(1.05);  /* Scale up the card slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Increase shadow on hover */
+  }
+  
+  .filter-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .filter-body {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  label {
+    font-size: 14px;
+  }
+  
+  select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #4a90e2;
+    transform: scale(1.05);
+  }
+  
+  select:hover {
+    background-color: #93af6e;  /* Change background color on hover */
+    border-color: #2a7b9b;  /* Change border color on hover */
+  }
+
+  

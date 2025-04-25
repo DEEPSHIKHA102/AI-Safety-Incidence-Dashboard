@@ -1,0 +1,91 @@
+/* src/components/IncidentForm.css */
+
+/* Styling for the main form container */
+.incident-form {
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 30px;
+    transition: all 0.3s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  /* Hover effect on form container */
+  .incident-form:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px); /* Lift effect */
+  }
+  
+  /* Style for input, textarea, and select elements */
+  .incident-form input,
+  .incident-form textarea,
+  .incident-form select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+  }
+  #headingh3{
+    background-color: rgb(63, 84, 84);
+    border-radius: 8px;
+    text-align: center;
+    padding: 2px;
+  }
+  #id4{
+    font-weight:bolder;
+  }
+  
+  /* Focus effect for input, textarea, and select */
+  .incident-form input:focus,
+  .incident-form textarea:focus,
+  .incident-form select:focus {
+    outline: none;
+    border-color: #2a7b9b;  /* Focus border color */
+    box-shadow: 0 0 5px rgba(42, 123, 155, 0.5);  /* Adding a subtle shadow */
+  }
+  
+  /* Style for textarea */
+  .incident-form textarea {
+    resize: vertical;  /* Allow the user to resize vertically */
+    min-height: 100px; /* Set a minimum height for the textarea */
+  }
+  
+  /* Label styling */
+  .incident-form label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Adding spacing between form elements */
+  .incident-form .form-group {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  /* Submit button styling */
+  .incident-form button {
+    background-color: #2a7b9b;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for submit button */
+  .incident-form button:hover {
+    background-color: #237a8f;
+  }
+  
+  
